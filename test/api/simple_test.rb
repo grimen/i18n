@@ -8,6 +8,7 @@ class I18nSimpleBackendApiTest < Test::Unit::TestCase
   include Tests::Api::Basics
   include Tests::Api::Defaults
   include Tests::Api::Interpolation
+  include Tests::Api::KeyInterpolation
   include Tests::Api::Link
   include Tests::Api::Lookup
   include Tests::Api::Pluralization

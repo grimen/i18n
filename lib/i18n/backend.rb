@@ -15,5 +15,6 @@ module I18n
     autoload :Metadata,              'i18n/backend/metadata'
     autoload :Pluralization,         'i18n/backend/pluralization'
     autoload :Simple,                'i18n/backend/simple'
+    autoload :KeyInterpolation,      'i18n/backend/key_interpolation'
   end
 end

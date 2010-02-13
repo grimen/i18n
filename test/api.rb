@@ -3,6 +3,7 @@ module Tests
     autoload :Basics,        'api/tests/basics'
     autoload :Defaults,      'api/tests/defaults'
     autoload :Interpolation, 'api/tests/interpolation'
+    autoload :KeyInterpolation, 'api/tests/key_interpolation'
     autoload :Link,          'api/tests/link'
     autoload :Lookup,        'api/tests/lookup'
     autoload :Pluralization, 'api/tests/pluralization'
